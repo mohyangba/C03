@@ -4,14 +4,14 @@
 int main(int argc, char *argv[])
 {
     char c;
-    int  i;
-    printf("input a number : ");
+    
+    printf("input a character : ");
+    
     scanf("%c", &c);
     
-    i= c - '1';
-    printf("The input number ASCII is %i\n", c);
-    printf("We will subtract 49 from the input number\n");
-    printf("The resault will be %i\n", i);
+    printf("The ASCII number of the character is %i\n", c);
+    printf("\n");
+    printf("The next character of %c (%d) is %c (%d)\n", c, c, c+1, c+1);
     
     system("PAUSE");
     return 0;
