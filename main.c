@@ -19,8 +19,8 @@ int main(int argc, char *argv[])
     float i;
     i = (float)num1/num2;
     
-    printf("The resault will be %f", i);
     printf("\n");
+    printf("The resault will be %f\n", i);
     
     system("PAUSE");
     return 0;
