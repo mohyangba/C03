@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
     scanf("%i", &num2);
     
     float i;
-    i = num1/num2;
+    i = (float)num1/num2;
     
     printf("The resault will be %f", i);
     printf("\n");
