@@ -3,16 +3,15 @@
 
 int main(int argc, char *argv[])
 {
-    int forint;
-    float forfloat;
+    char c;
+    int  i;
+    printf("input a number : ");
+    scanf("%c", &c);
     
-    printf("enter an integer : ");
-    scanf("%d", &forint);
-    
-    printf("enter a float : ");
-    scanf("%f", &forfloat);
-    
-    printf("interger : %d, float : %f\n", forint, forfloat);
+    i= c - '0';
+    printf("The input number ASCII is %i\n", c);
+    printf("We will subtract 48 from the input number\n");
+    printf("The resault will be %i\n", i);
     
     system("PAUSE");
     return 0;
